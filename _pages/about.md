@@ -58,23 +58,30 @@ Yijun Shen (沈逸骏) is a first-year master's student in Computer Science at [
 [[**Project Page**]](https://statefactory.github.io/) [[**Code**]](https://github.com/yijunshens/StateFactory) [[**X**]](https://x.com/Delong0_0/status/2031669604695576715)
 
 - We introduce StateFactory, a factorized representation method that transforms unstructured observations into a hierarchical object-attribute structure for robust zero-shot reward prediction.
+
   </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/CoTalk.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">EMNLP 2025</div>
+      <img src='images/CoTalk.jpg' alt="CoTalk" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [Chain-of-Talkers (CoTalk): Fast Human Annotation of Dense Image Captions](https://arxiv.org/abs/2505.22627)
 
- **Yijun Shen**\*, Delong Chen\*, Fan Liu\*, Xingyu Wang, Chuanyi Zhang, Liang Yao, Yuhui Zheng.
+**Yijun Shen**\*, Delong Chen\*, Fan Liu\*, Xingyu Wang, Chuanyi Zhang, Liang Yao, Yuhui Zheng.
 
- [[**Code**]](https://github.com/YiJunShenS/CoTalk)
+[[**Code**]](https://github.com/YiJunShenS/CoTalk)
 
-  - We propose an efficient image caption annotation method, which is a sequential cross modal input-output annotation framework, CoTalk
+- We propose an efficient image caption annotation method, which is a sequential cross modal input-output annotation framework, CoTalk.
 
-
+  </div>
 </div>
-</div>
+
 
 # 👥 Co-authors
 Prof. [Fan Liu](https://cies.hhu.edu.cn/2024/0521/c21613a280137/page.htm), [Delong Chen](https://chendelong.world/), [Liang Yao](https://1e12leon.top/), [Xingyu Wang](https://multimodality.group/author/%E7%8E%8B%E5%85%B4%E5%AE%87/)
