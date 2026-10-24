@@ -1,0 +1,57 @@
+/* Publication rows follow the user's text-left, figure-right reference. */
+.paper-box.publication-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: center;
+  padding: 1.65rem 0;
+  border-bottom: 1px solid #e8ebef;
+}
+.paper-box.publication-entry .paper-box-text {
+  order: 1;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+.paper-box.publication-entry .paper-box-image {
+  order: 2;
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+.publication-figure { display: block; line-height: 0; }
+.paper-box.publication-entry .paper-box-image img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  box-shadow: none;
+  cursor: zoom-in;
+}
+.paper-box.publication-entry .paper-box-image a:hover img { box-shadow: none; }
+.publication-figure:focus-visible { outline: 3px solid #337ab7; outline-offset: 5px; }
+.paper-box.publication-entry .paper-box-text > p:first-child {
+  font-size: 1.06em;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.paper-box.publication-entry .paper-box-text p { margin-bottom: .65em; }
+.paper-box.publication-entry .paper-box-text ul { margin: .6em 0 0; padding-left: 1.15em; }
+.paper-box.publication-entry .badge {
+  display: inline-block;
+  position: static;
+  margin: 0 0 .65em;
+  padding: .2em .65em;
+  border-radius: 3px;
+  line-height: 1.4;
+}
+/* Trebuchet's ampersand is unusual; use the familiar glyph without changing the text. */
+.research-amp { font-family: Arial, Helvetica, sans-serif; }
+@media (max-width: 760px) {
+  .paper-box.publication-entry { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .paper-box.publication-entry .paper-box-image { max-width: 650px; justify-self: center; }
+}
